@@ -1,0 +1,21 @@
+.refresh-icon {
+    background-image: url("image/refresh.png");
+    background-size: contain;
+  }
+  .home-icon {
+    background-image: url("image/home.png");
+    background-size: contain;
+  }
+  .parent-icon {
+    background-image: url("image/parentdir.png");
+    background-size: contain;
+  }
+  .terminal-icon {
+    background-image: url("image/adddir.png");
+    background-size: contain;
+  }
+  .leaf-icon {
+    background-image: url("image/add.png");
+    background-size: contain;
+  }
+  

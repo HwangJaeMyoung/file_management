@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  background: linear-gradient(180deg, #04fafd, 5%, #119dff, 50%, #030423);
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.bubble-button {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background:none;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  animation: floatAnimation 3s infinite ease-in-out;
+}
+
+@keyframes floatAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes fadeAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.bubble {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 123, 255, 0.5);
+  border-radius: 50%;
+  animation: bubbleAnimation 1.5s ease-in-out forwards;
+}
+
+@keyframes bubbleAnimation {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}

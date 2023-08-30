@@ -1,0 +1,56 @@
+@keyframes orbitAnimation0 {
+  0%{
+    transform: scale(0) rotate(0deg) translateX(0px) rotate(0deg);
+  }
+  100%{
+    transform: scale(1) rotate(270deg) translateX(40px) rotate(-270deg);
+  }
+}
+
+@keyframes orbitAnimation1 {
+  0%{
+    transform: scale(0) rotate(0deg) translateX(0px) rotate(0deg);
+  }
+  100%{
+    transform: scale(1) rotate(198deg) translateX(40px) rotate(-198deg);
+  }
+}
+@keyframes orbitAnimation2 {
+  0%{
+    transform: scale(0) rotate(0deg) translateX(0px) rotate(0deg);
+  }
+  100%{
+    transform: scale(1) rotate(126deg) translateX(40px) rotate(-126deg);
+  }
+}
+@keyframes orbitAnimation3 {
+  0%{
+    transform: scale(0) rotate(0deg) translateX(0px) rotate(0deg);
+  }
+  100%{
+    transform: scale(1) rotate(54deg) translateX(40px) rotate(-54deg);
+  }
+}
+@keyframes orbitAnimation4 {
+  0%{
+    transform: scale(0) rotate(0deg) translateX(0px) rotate(0deg);
+  }
+  100%{
+    transform: scale(1) rotate(-18deg) translateX(40px) rotate(18deg);
+  }
+}
+.orbit-Animation-0{
+  animation: orbitAnimation0 0.5s linear;
+}
+.orbit-Animation-1{
+  animation: orbitAnimation1 0.4s linear;
+}
+.orbit-Animation-2{
+  animation: orbitAnimation2 0.3s linear;
+}
+.orbit-Animation-3{
+  animation: orbitAnimation3 0.2s linear;
+}
+.orbit-Animation-4{
+  animation: orbitAnimation4 0.1s linear;
+}
