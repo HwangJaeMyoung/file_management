@@ -1,3 +1,61 @@
+@keyframes createAnimation {    
+  0% {
+      transform: scale(0) translateY(0) ;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+  }
+}
+@keyframes keepAnimation {    
+  0% {
+      transform: scale(1) translateY(0) ;
+  }
+  50% {
+      transform: scale(1) translateY(-10%);
+    }
+}
+@keyframes fadeAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.create-Animation  {
+  animation: createAnimation 3s ease-in-out; /* B 애니메이션 반복 적용 */
+}
+.keep-Animation  {
+  animation: keepAnimation 3s ease-in-out infinite; /* B 애니메이션 반복 적용 */
+}
+.fade-Animation  {
+  animation: fadeAnimation 1s ease-in-out; 
+}
+
+@keyframes floatAnimation{
+  0% {
+    transform: scale(0) translateY(0) rotate(70deg);
+  }
+  100% {
+    transform: scale(1.3) translateY(-100px) rotate(360deg);
+  }
+}
+
+@keyframes spreadAnimation{
+  0% {
+    transform: scale(0) translateY(0) rotate(70deg);
+  }
+  100% {
+    transform: scale(2) translateY(0) rotate(360deg);
+    opacity: 0;
+  }
+}
+.spread-Animation{
+  animation: spreadAnimation 1s ease-in-out;
+}
+
+
+
 @keyframes orbitAnimation0 {
   0%{
     transform: scale(0) rotate(0deg) translateX(0px) rotate(0deg);
@@ -54,3 +112,6 @@
 .orbit-Animation-4{
   animation: orbitAnimation4 0.1s linear;
 }
+
+
+

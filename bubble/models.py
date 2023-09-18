@@ -28,9 +28,9 @@ class Bubble(models.Model):
     
     def delete(self):
         for ancestor in self.get_ancestor():
-            ancestor.sub_capacity(bubble)
+            ancestor.sub_capacity(self)
             ancestor.save()
-        super.delete()
+        super().delete()
 
 class Terminal_bubble(Bubble):
     allowable_capacity = models.FloatField(default=0)

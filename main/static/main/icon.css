@@ -11,11 +11,35 @@
     background-size: contain;
   }
   .terminal-icon {
-    background-image: url("image/adddir.png");
+    background-image: url("image/terminal.png");
     background-size: contain;
   }
+
   .leaf-icon {
-    background-image: url("image/add.png");
+    background-image: url("image/leaf.png");
     background-size: contain;
   }
+
+  .turn_off-icon {
+    background-image: url("image/turn_off.png");
+    background-size: contain;
+  }
+  .copy-icon {
+    background-image: url("image/copy.png");
+    background-size: contain;
+  }
+  .download-icon {
+    background-image: url("image/download.png");
+    background-size: contain;
+  }
+  .delete-icon {
+    background-image: url("image/delete.png");
+    background-size: contain;
+  }
+
+  .save-icon {
+    background-image: url("image/delete.png");
+    background-size: contain;
+  }
+
   
